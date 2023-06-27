@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 48rem) {
+    #services {
+        padding-left: 1rem;
+    }
+    
     .flex {
         display: flex;
     }
