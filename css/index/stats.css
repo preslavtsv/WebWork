@@ -1,0 +1,13 @@
+#stats .col-lg-4 {
+    text-align: center;
+    margin: 4rem 0 0;
+
+}
+
+.stat-text {
+    color: aliceblue;
+}
+
+.stat-text-container {
+    margin-bottom: 4rem;
+}

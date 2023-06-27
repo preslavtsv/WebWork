@@ -1,0 +1,14 @@
+#contact {
+    text-align: center;
+    background-color: rgb(13,115,119);
+}
+
+#contact a {
+    color: aliceblue;
+    background-color: #323232;
+    margin: 4rem 0rem ;
+}
+
+#contact a:hover {
+    background-color: #212121;
+}

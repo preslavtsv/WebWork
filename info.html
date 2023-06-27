@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebWork | Info</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/index/loading.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/contact/contact-page.css">
+
+    </head>
+    <body onload="loadingScreen()">
+
+        <div id="load">
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>D</div>
+            <div>A</div>
+            <div>O</div>
+            <div>L</div>
+        </div>
+
+        <main id="Homepage" style="display: none;">
+
+            <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+                <div class="container-fluid">
+                    <img src="img/logo.png" alt="WebWork" id="logo">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-end text-bg-dark"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header" data-bs-theme="dark">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active hover-underline-animation" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active hover-underline-animation" href="index.html#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active hover-underline-animation"
+                                        href="index.html#testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        About
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-lg-end">
+                                        <li>
+                                            <a class="dropdown-item" href="contact.html">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="info.html">Information</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section id="contact" style="padding: 1rem;">
+                <div class="animate__animated animate__backInUp" style="text-align: center;">
+                    <h1 class="section-header">Information</h1>
+
+                    <p style="padding: 3rem; font-size: 1.2rem;">WebWork is a leading web
+                        development company dedicated to helping businesses establish a strong and
+                        successful online presence. With a team of highly skilled professionals, we
+                        offer a wide range of services tailored to meet the unique needs of our clients.
+                        At WebWork, we specialize in personalized design and development, crafting
+                        visually stunning websites that reflect our clients' brands and captivate their
+                        target audiences. Whether it's a personal portfolio, corporate website, or
+                        e-commerce platform, our team combines creativity and technical expertise to
+                        deliver exceptional results. In addition to design and development, we provide
+                        comprehensive e-commerce solutions that empower businesses to thrive in the
+                        digital marketplace. From user-friendly interfaces to secure payment gateways
+                        and efficient inventory management, our e-commerce solutions are designed to
+                        maximize sales and optimize customer experiences. We also excel in web app
+                        development, creating custom applications that streamline business processes and
+                        drive efficiency. Our team leverages the latest technologies and frameworks to
+                        build scalable, secure, and user-friendly web applications that meet our
+                        clients' specific requirements. Furthermore, we understand the importance of
+                        search engine optimization (SEO) in achieving online success. Our SEO
+                        optimization services help businesses improve their search engine rankings,
+                        increase organic traffic, and generate valuable leads. We employ proven
+                        strategies to enhance website visibility, target relevant keywords, and optimize
+                        site structure for maximum impact. At WebWork, we take pride in our commitment
+                        to client satisfaction. We prioritize open communication, transparency, and
+                        timely project delivery. Our dedicated team works closely with clients
+                        throughout the development process, ensuring their vision is realized and their
+                        goals are met. Whether you are a small business owner, an entrepreneur, or a
+                        large corporation, WebWork is your trusted partner in web development. We strive
+                        to deliver outstanding results that propel our clients' businesses forward in
+                        the digital landscape. Experience the power of WebWork and unlock your online
+                        potential today.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container-fluid">
+                <a
+                    href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                    target="_blank"
+                    class="icons">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #14ffec;"></i>
+                </a>
+                <a
+                    href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                    target="_blank"
+                    class="icons">
+                    <i class="fa-brands fa-instagram fa-xl" style="color: #14ffec;"></i>
+                </a>
+                <a
+                    href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                    target="_blank"
+                    class="icons">
+                    <i class="fa-brands fa-twitter fa-xl" style="color: #14ffec;"></i>
+                </a>
+                <a
+                    href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                    target="_blank"
+                    class="icons">
+                    <i class="fa-brands fa-youtube fa-xl" style="color: #14ffec;"></i>
+                </a>
+                <a
+                    href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                    target="_blank"
+                    class="icons">
+                    <i class="fa-brands fa-linkedin fa-xl" style="color: #14ffec;"></i>
+                </a>
+                <h5>&copy; 2023 · WebWork LLC | All rights reserved</h5>
+            </div>
+        </footer>
+    </section>
+</main>
+<script src="js/loading.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>

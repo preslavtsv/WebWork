@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebWork | Contact</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/index/loading.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/contact/contact-page.css">
+
+    </head>
+    <body onload="loadingScreen()">
+
+        <div id="load">
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>D</div>
+            <div>A</div>
+            <div>O</div>
+            <div>L</div>
+        </div>
+
+        <main id="Homepage" style="display: none;">
+
+            <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+                <div class="container-fluid">
+                    <img src="img/logo.png" alt="WebWork" id="logo">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-end text-bg-dark"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header" data-bs-theme="dark">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active hover-underline-animation" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active hover-underline-animation" href="index.html#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active hover-underline-animation"
+                                        href="index.html#testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        About
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-lg-end">
+                                        <li>
+                                            <a class="dropdown-item" href="contact.html">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="info.html">Information</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section id="contact">
+                <div class="animate__animated animate__backInUp">
+                    <h1 class="section-header">Contact</h1>
+
+                    <div class="contact-wrapper">
+
+                        <!-- Left contact page -->
+
+                        <form id="contact-form" class="form-horizontal" role="form">
+
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="name"
+                                        placeholder="NAME"
+                                        name="name"
+                                        value=""
+                                        required="required">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="EMAIL"
+                                        name="email"
+                                        value=""
+                                        required="required">
+                                </div>
+                            </div>
+
+                            <textarea
+                                class="form-control"
+                                rows="10"
+                                placeholder="MESSAGE"
+                                name="message"
+                                required="required"></textarea>
+
+                            <button
+                                class="btn btn-primary send-button"
+                                id="submit"
+                                type="submit"
+                                value="SEND">
+                                <div class="alt-send-button">
+                                    <i class="fa fa-paper-plane"></i>
+                                    <span class="send-text">SEND</span>
+                                </div>
+
+                            </button>
+
+                        </form>
+
+                        <!-- Left contact page -->
+
+                        <div class="direct-contact-container">
+
+                            <ul class="contact-list">
+                                <li class="list-item">
+                                    <i class="fa-solid fa-map-pin fa-2xl" style="color: #323232;"></i>
+                                    <a
+                                        href="https://www.google.bg/maps/place/%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BE-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0+%D0%B3%D0%B8%D0%BC%D0%BD%D0%B0%D0%B7%D0%B8%D1%8F+%E2%80%9E%D0%92%D0%B0%D1%81%D0%B8%D0%BB+%D0%94%D1%80%D1%83%D0%BC%D0%B5%D0%B2%E2%80%9C/@43.0771864,25.6176209,17z/data=!3m1!4b1!4m6!3m5!1s0x40a9260deb576cfd:0x55507c06084147ae!8m2!3d43.0771865!4d25.6224918!16s%2Fg%2F1pzpdf9x0?hl=bg&entry=ttu"
+                                        target="_blank"
+                                        style="color: aliceblue;">
+                                        <p>Str. Vela Blagoeva 10</p>
+                                    </a>
+                                </li>
+                                <hr>
+                                <li class="list-item">
+                                    <i class="fa-solid fa-phone fa-2xl" style="color: #323232;"></i>
+                                    <p style="color: aliceblue; margin-bottom: 2rem;">+359 882 997 750</p>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <footer id="footer">
+                    <div class="container-fluid">
+                        <a
+                            href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                            target="_blank"
+                            class="icons">
+                            <i class="fa-brands fa-facebook fa-xl" style="color: #14ffec;"></i>
+                        </a>
+                        <a
+                            href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                            target="_blank"
+                            class="icons">
+                            <i class="fa-brands fa-instagram fa-xl" style="color: #14ffec;"></i>
+                        </a>
+                        <a
+                            href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                            target="_blank"
+                            class="icons">
+                            <i class="fa-brands fa-twitter fa-xl" style="color: #14ffec;"></i>
+                        </a>
+                        <a
+                            href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                            target="_blank"
+                            class="icons">
+                            <i class="fa-brands fa-youtube fa-xl" style="color: #14ffec;"></i>
+                        </a>
+                        <a
+                            href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+                            target="_blank"
+                            class="icons">
+                            <i class="fa-brands fa-linkedin fa-xl" style="color: #14ffec;"></i>
+                        </a>
+                        <h5>&copy; 2023 · WebWork LLC | All rights reserved</h5>
+                    </div>
+                </footer>
+            </section>
+        </main>
+        <script src="js/loading.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    </body>
+</html>

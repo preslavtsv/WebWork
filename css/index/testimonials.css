@@ -1,0 +1,25 @@
+#testimonials {
+    text-align: center;
+    background-color: #323232;
+    margin: 2rem 0rem;
+}
+
+.a {
+    color: aliceblue;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    margin: 1rem 5rem ;
+    color: aliceblue;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item-inner {
+    margin: 2rem;
+}
