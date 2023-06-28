@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #323232;
+    text-align: center;
 }
 
 #contact {
@@ -23,7 +24,7 @@ body {
     letter-spacing: 6px;
     color: aliceblue;
     text-align: center;
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem 0;
 }
 
 .contact-wrapper {
@@ -61,7 +62,7 @@ textarea {
 }
 
 .alt-send-button {
-    width: 400px;
+    width: 385px;
     height: 34px;
     transition: all 0.2s ease-in-out;
 }
@@ -257,8 +258,17 @@ hr {
 
 }
 
-@media screen and (max-width: 410px) {
+@media (max-width: 450px) {
     .send-button {
         width: 99%;
     }
+
+    #contact-form {
+        width: 300px;
+    }
+
+    .alt-send-button {
+        width: 275px;
+    }
+
 }
